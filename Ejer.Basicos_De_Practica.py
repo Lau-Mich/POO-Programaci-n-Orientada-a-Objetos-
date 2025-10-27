@@ -73,7 +73,7 @@ print("------------------------------------------------")
 print("GESTOR DE PRODUCTOS\n")
 
 class Producto:
-    def __init__(self, nombre, precio):  # Corregido: __init_
+    def __init__(self, nombre, precio): 
         self.nombre = nombre
         self.precio = precio
 
@@ -88,3 +88,4 @@ print("---------")
 producto1.mostrar()
 producto2.mostrar()
 producto3.mostrar()
+ 
